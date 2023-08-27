@@ -38,13 +38,13 @@ btns.forEach((btn)=> {
         }
         else if (playerSelection === "rock" && computerSelection === "paper") {
             increaseComputerPoints()
-            result.textContent = "You Lose! Rock beats Paper"
+            result.textContent = "You Lose! Paper beats Rock"
         }else if (playerSelection === "paper" && computerSelection === "scissors") {
             increaseComputerPoints()
-            result.textContent = "You Lose! Paper beats Scissors"
+            result.textContent = "You Lose! Scissors beats Paper"
         }else if (playerSelection === "scissors" && computerSelection === "rock") {
             increaseComputerPoints()
-            result.textContent = "You Lose! Scissors beats Rock"
+            result.textContent = "You Lose! Rock beats Scissors"
         }
     }
     
